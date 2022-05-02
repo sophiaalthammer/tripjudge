@@ -14,7 +14,7 @@ DCTR and Raw labels and find a low coverage of the Top4 runs of our pool. Furthe
 we find disagreement between our relevance judgements and click-based labels, as visualized in the plot below.
 Green bars denote agreement, red bars denote disagreement in the plot below.
 
-![TripJudge and TripClick overlap](figures/agreement_dctr_raw_labels.png =x250)
+<img src="figures/agreement_dctr_raw_labels.png" width="200">
 
 Text Example
 
