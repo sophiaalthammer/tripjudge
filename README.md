@@ -10,13 +10,13 @@ monitoring of quality parameters during our annotation campaign, such as the tim
 For relevance judgement we employ majority voting and reach a moderate inter-annotator agreement.
 
 We compare the TripJudge relevance judgements to the click-based labels from the TripClick 
-DCTR and Raw labels and find a low coverage of the Top4 runs of our pool 
-as well as a disagreement between our relevance judgements and click-based labels.
+DCTR and Raw labels and find a low coverage of the Top4 runs of our pool. Furthermore 
+we find disagreement between our relevance judgements and click-based labels, as visualized in the plot below.
+Green bars denote agreement, red bars denote disagreement in the plot below.
 
-![](figures/agreement_dctr_raw_labels.pdf)
+![TripJudge and TripClick overlap](figures/agreement_dctr_raw_labels.png?raw=true "Title")
 
-
-Text Example?
+Text Example
 
 ## Test collection
 
