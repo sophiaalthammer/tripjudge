@@ -16,7 +16,12 @@ Green bars denote agreement, red bars denote disagreement in the plot below.
 
 <img src="figures/agreement_dctr_raw_labels.png" width="400">
 
-Text Example
+In the following we see a text example of 2 queries with the retrieved document, where the Raw click-based
+labels and the TripJudge judgement disagree. For the left example, the click-based label considers the document irrelevant
+while we judge it relevant, for the right example, the click-based label considers the document as relevant, while we judge
+the document as irrelevant.
+
+<img src="figures/disagreement_example.png" width="600">
 
 ## Test collection
 
