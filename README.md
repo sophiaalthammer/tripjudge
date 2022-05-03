@@ -14,7 +14,7 @@ DCTR and Raw labels and find a low coverage of the Top4 runs of our pool. Furthe
 we find disagreement between our relevance judgements and click-based labels, as visualized in the plot below.
 Green bars denote agreement, red bars denote disagreement in the plot below.
 <p align="left">
-<img src="figures/agreement_dctr_raw_labels.png" width="500">
+<img src="figures/agreement_dctr_raw_labels.png" width="450">
 </p>
 In the following we see a text example of 2 queries with the retrieved document, where the Raw click-based
 labels and the TripJudge judgement disagree. For the left example, the click-based label considers the document irrelevant
