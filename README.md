@@ -4,10 +4,20 @@ TripJudge is a novel relevance judgement based test collection for the [Tripclic
 health retrieval collection. We extend the click-based test sets by annotating Head test set queries with a pool of 
 3 runs from [Hofstätter et al.](https://arxiv.org/abs/2201.00365)
 (BM25, dense retrieval with SciBERT_DOT and an neural Ensemble re-ranking).
- 
+
+## Test collection
+
+We publish the **12,590** TripJudge relevance judgements 
+for [2 class relevance](data/qrels_2class.txt) and the [4 class relevance](data/qrels_4class.txt).
+
+We also publish the **38,810** query-document [raw annotations](data/raw-judgements-fira-22-final.tsv) with annotation times and anonymized user ids
+to encourage further research on this test collection.
+
 We ensure a high quality by employing 2.92 judgements on average for every query-document pair and continuous 
 monitoring of quality parameters during our annotation campaign, such as the time spent per annotation. 
 For relevance judgement we employ majority voting and reach a moderate inter-annotator agreement.
+
+## TripJudge vs TripClick
 
 We compare the TripJudge relevance judgements to the click-based labels from the TripClick 
 DCTR and Raw labels and find a low coverage of the Top4 runs of our pool. Furthermore 
@@ -22,14 +32,6 @@ while we judge it relevant, for the right example, the click-based label conside
 the document as irrelevant.
 
 <img src="figures/disagreement_example.png" width="800">
-
-## Test collection
-
-We publish the **12,590** TripJudge relevance judgements 
-for [2 class relevance](data/qrels_2class.txt) and the [4 class relevance](data/qrels_4class.txt).
-
-We also publish the **38,810** query-document [raw annotations](data/raw-judgements-fira-22-final.tsv) with annotation times and anonymized user ids
-to encourage further research on this test collection.
 
 
 ## Acknowledgements
