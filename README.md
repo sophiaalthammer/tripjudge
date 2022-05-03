@@ -21,7 +21,7 @@ labels and the TripJudge judgement disagree. For the left example, the click-bas
 while we judge it relevant, for the right example, the click-based label considers the document as relevant, while we judge
 the document as irrelevant.
 
-<img src="figures/disagreement_example.png" width="600">
+<img src="figures/disagreement_example.png" width="800">
 
 ## Test collection
 
