@@ -42,4 +42,4 @@ The judgements where created using:
 
 ## Acknowledgements
 
-We want to thank our students of the Advanced Information Retrieval course in the summer term of 2022 for annotating the data and being so patient and motivated in the process. 
+We thank our students of the Advanced Information Retrieval course in SS2022 for annotating the data and being so patient and motivated in the process. 
