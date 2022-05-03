@@ -134,50 +134,10 @@ def untokenize_sentence(text_tokenized):
     return pretok_sent.strip()
 
 
-if __name__ == "__main__":
-    file_path = '/mnt/c/Users/salthamm/Documents/phd/data/tripclick/runs_annotation'
-
-    # for the runs, add the priority
-    run_bm25 = read_run_bm25(os.path.join(file_path, 'bm25/bm25_top1k_head.test.txt'))
-    run_scibert = read_run_neural(os.path.join(file_path, 'scibert_dot/top1k_head_dctr-output.txt'))
-    run_bertcat = read_run_neural(os.path.join(file_path, '3bert_fix_ensemble_avg/top200_rerank_head_dctr-ensemble-output.txt'))
-
-    assert set(run_scibert.keys()) == set(run_bm25.keys())
-    assert set(run_scibert.keys()) == set(run_bertcat.keys())
-
-    cut_off = 10
-
-    # remove the tuples which are in the intersection, remove here the pair with the lower rank
-    run_scibert_intersected, run_bertcat_intersected = run_intersection(run_scibert, run_bertcat, cut_off)
-    run_scibert_intersected, run_bm25_intersected = run_intersection(run_scibert_intersected, run_bm25, cut_off)
-    run_bm25_intersected, run_bertcat_intersected = run_intersection(run_bertcat_intersected, run_bm25_intersected, cut_off)
-
-    write_run([run_bm25_intersected, run_scibert_intersected, run_bertcat_intersected], file_path, 'judgements_pairs_trip.tsv', cut_off, '')
-
-    # filter collection file so that only document in the query-document pairs are included
-    file_path = '/mnt/c/Users/salthamm/Documents/phd/data/tripclick/runs_annotation/judgement_pairs_trip.tsv'
-    collection_path = '/mnt/c/Users/salthamm/Documents/phd/data/tripclick/data/collection.tsv'
-
-    col_trip = read_in_queries(collection_path)
-    run_trip = read_in_runs(file_path)
-    # filter then with the runs, only the documents in the collection which are also in the judgement pairs!
-    col_trip_filtered = filter_collection_from_run(run_trip, col_trip)
-
-    with open('/mnt/c/Users/salthamm/Documents/phd/data/tripclick/runs_annotation/documents_trip.tsv', 'wt') as out_file:
-        tsv_writer = csv.writer(out_file, delimiter='\t')
-        tsv_writer.writerow(['doc_id', 'doc_text'])
-        for line in col_trip_filtered:
-            tsv_writer.writerow(line)
-
-
-    # truncate documents text to 512 subword tokens
-    file_path = '/mnt/c/Users/salthamm/Documents/phd/data/tripclick/runs_annotation/documents_trip.tsv'
-    collection_all = read_in_queries(file_path)
-
-    # shorten to 512 subwords
+def truncate_collection(col_trip_filtered):
     tokenizer = PretrainedTransformerTokenizer('bert-base-uncased', max_length=512)
     coll_short = []
-    for line in collection_all:
+    for line in col_trip_filtered:
         text_tokenized = tokenizer.tokenize(line[1])[1:-1]
         text_untokenized = untokenize_sentence(text_tokenized)
         coll_short.append([line[0], text_untokenized])
@@ -189,15 +149,56 @@ if __name__ == "__main__":
     for i in range(len(coll_short)):
         counter_trip += 1
         truncated = coll_short[i][1]
-        original = collection_all[i][1]
+        original = col_trip_filtered[i][1]
 
-        if len(truncated.split(' '))+10 <= len(original.split(' ')):
+        if len(truncated.split(' ')) + 10 <= len(original.split(' ')):
             counter += 1
-    print('share of truncated document: {}',format(counter/counter_trip))
+    print('share of truncated document: {}', format(counter / counter_trip))
+    return coll_short
 
 
-    with open('/mnt/c/Users/salthamm/Documents/phd/data/tripclick/runs_annotation/documents_trip_short.tsv', 'wt')\
-            as out_file:
+def write_collection(coll_short, outfile_path):
+    with open(outfile_path, 'wt') as out_file:
         tsv_writer = csv.writer(out_file, delimiter='\t')
+        tsv_writer.writerow(['doc_id', 'doc_text'])
         for line in coll_short:
             tsv_writer.writerow(line)
+
+
+if __name__ == "__main__":
+    file_path = 'folder_path_to_runs/'
+
+    # read the multiple runs
+    run_bm25 = read_run_bm25(os.path.join(file_path, 'bm25/bm25_top1k_head.test.txt'))
+    run_scibert = read_run_neural(os.path.join(file_path, 'scibert_dot/top1k_head_dctr-output.txt'))
+    run_bertcat = read_run_neural(os.path.join(file_path,
+                                               '3bert_fix_ensemble_avg/top200_rerank_head_dctr-ensemble-output.txt'))
+
+    cut_off = 10
+
+    assert set(run_scibert.keys()) == set(run_bm25.keys())
+    assert set(run_scibert.keys()) == set(run_bertcat.keys())
+
+    # create the pool by removing the tuples which are in the intersection, remove here the pair with the lower rank
+    run_scibert_intersected, run_bertcat_intersected = run_intersection(run_scibert, run_bertcat, cut_off)
+    run_scibert_intersected, run_bm25_intersected = run_intersection(run_scibert_intersected, run_bm25, cut_off)
+    run_bm25_intersected, run_bertcat_intersected = run_intersection(run_bertcat_intersected, run_bm25_intersected,
+                                                                     cut_off)
+    write_run([run_bm25_intersected, run_scibert_intersected, run_bertcat_intersected], file_path,
+              'judgements_pairs_trip.tsv', cut_off, '')
+
+    # filter collection file so that only document in the query-document pairs are included and truncate length of
+    # documents
+    file_path = 'out_file/judgement_pairs_trip.tsv'
+    collection_path = 'path_to/collection.tsv'
+    outfile_path = 'out_file/documents_trip_short.tsv'
+
+    col_trip = read_in_queries(collection_path)
+    run_trip = read_in_runs(file_path)
+    # filter then with the runs, only the documents in the collection which are also in the judgement pairs!
+    col_trip_filtered = filter_collection_from_run(run_trip, col_trip)
+    # truncate documents text to 512 subword tokens
+    coll_short = truncate_collection(col_trip_filtered)
+    write_collection(coll_short, outfile_path)
+
+

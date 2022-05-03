@@ -169,48 +169,47 @@ def compute_kendalls_tau_between_metrics(pairs, tests, metrics, path):
                 f.write('pair {} test {} and kendall tau {} pvalue {}\n'.format(pair, test, tau, p_value))
         f.close()
 
+if __name__ == "__main__":
+    test_results_path = 'path_to/ensemble-output.txt'
+    qrels_path_anno = './data/qrels_2class.txt'
+    qrels_path_dctr = 'path_to/qrels.dctr.head.test.txt'
+    qrels_path_raw = 'path_to/qrels.raw.head.test.txt'
+    binarization_point = 1
 
-test_results_path = 'path_to/ensemble-output.txt'
-qrels_path_anno = './data/qrels_2class.txt'
-qrels_path_dctr = 'path_to/qrels.dctr.head.test.txt'
-qrels_path_raw = 'path_to/qrels.raw.head.test.txt'
-binarization_point = 1
+    runs = ['bm25/bm25_top1k_head.test.txt',
+           'scibert_dot/top1k_head_dctr-output.txt',
+           'pubmedbert_dot/top1k_head_dctr-output.txt',
+           'colbert_scibert/test_top200_rerank_head_dctr-output.txt',
+           'colbert_pubmedbert/test_top200_rerank_head_dctr-output.txt',
+           'bert_cat/test_top200_rerank_head_dctr-output.txt',
+           '3bert_fix_ensemble_avg/top200_rerank_head_dctr-ensemble-output.txt']
 
-runs = ['bm25/bm25_top1k_head.test.txt',
-       'scibert_dot/top1k_head_dctr-output.txt',
-       'pubmedbert_dot/top1k_head_dctr-output.txt',
-       'colbert_scibert/test_top200_rerank_head_dctr-output.txt',
-       'colbert_pubmedbert/test_top200_rerank_head_dctr-output.txt',
-       'bert_cat/test_top200_rerank_head_dctr-output.txt',
-       '3bert_fix_ensemble_avg/top200_rerank_head_dctr-ensemble-output.txt']
+    path = 'output_path/'
+    qrels = [qrels_path_anno, qrels_path_dctr, qrels_path_raw]
 
-path = 'output_path/'
-qrels = [qrels_path_anno, qrels_path_dctr, qrels_path_raw]
+    # evaluate all runs again with the irrelevant ones to find coverage!
+    for qrel in qrels:
+        for run in runs:
+            test_results_path = os.path.join(path, run)
+            eval_run(test_results_path, qrel, binarization_point, qrels_with_irrel=True, with_j=True)
 
-# evaluate all runs again with the irrelevant ones to find coverage!
-for qrel in qrels:
+    # evaluate annotated runs with joption
     for run in runs:
         test_results_path = os.path.join(path, run)
-        eval_run(test_results_path, qrel, binarization_point, qrels_with_irrel=True, with_j=True)
-
-# evaluate annotated runs with joption
-for run in runs:
-    test_results_path = os.path.join(path, run)
-    eval_run(test_results_path, qrels_path_anno, binarization_point, qrels_with_irrel=True, with_j=True)
+        eval_run(test_results_path, qrels_path_anno, binarization_point, qrels_with_irrel=True, with_j=True)
 
 
-# evalute multiple runs for kendalls tau
-metrics = get_metrics_for_multiple_qrels_runs(qrels, runs, path, binarization_point)
+    # evaluate multiple runs for kendalls tau
+    metrics = get_metrics_for_multiple_qrels_runs(qrels, runs, path, binarization_point)
+    measures = ['Recall@100', 'MRR@10', 'nDCG@5', 'nDCG@10', 'nDCG@3']
+    pairs = [('annotation', 'dctr'), ('annotation', 'raw'), ('dctr', 'raw')]
 
-measures = ['Recall@100', 'MRR@10', 'nDCG@5', 'nDCG@10', 'nDCG@3']
-pairs = [('annotation', 'dctr'), ('annotation', 'raw'), ('dctr', 'raw')]
+    compute_kendalls_tau_between_collections(pairs, measures, metrics, path)
 
-compute_kendalls_tau_between_collections(pairs, measures, metrics, path)
-
-# stability of test collection: kendalls tau between metrics:
-measures = ['Recall@100', 'MRR@10', 'nDCG@5', 'nDCG@10', 'nDCG@3']
-pairs = [('nDCG@3', 'Recall@100'), ('nDCG@3', 'MRR@10'), ('nDCG@3', 'nDCG@5')]
-tests = ['annotation', 'raw', 'dctr']
-compute_kendalls_tau_between_metrics(pairs, tests, metrics, path)
+    # stability of test collection: kendalls tau between metrics
+    measures = ['Recall@100', 'MRR@10', 'nDCG@5', 'nDCG@10', 'nDCG@3']
+    pairs = [('nDCG@3', 'Recall@100'), ('nDCG@3', 'MRR@10'), ('nDCG@3', 'nDCG@5')]
+    tests = ['annotation', 'raw', 'dctr']
+    compute_kendalls_tau_between_metrics(pairs, tests, metrics, path)
 
 
