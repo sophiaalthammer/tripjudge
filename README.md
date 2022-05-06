@@ -48,7 +48,7 @@ Welcome to Fira! Our goal is to create fine-grained relevance annotations for qu
 
 In the annotation interface you will see 1 query and 1 document snippet and a range of relevance classes to select.
 
-<img src="figures/info-page-labels.png" width="800">
+<img src="figures/info-page-labels.png" width="600">
 
 For each pair you must select 1 from 4 relevance classes: </br><ul>
 <li><b>Wrong</b> If the document has nothing to do with the query, and does not help in any way to answer it</li>
