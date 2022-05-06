@@ -67,13 +67,13 @@ You can select more than one and you can also select them before clicking on the
 
 Now before we get started, let's have a look at an example from each relevance grade:
 
-<img src="figures/info-example-wrong.png" width="400">
+<img src="figures/info-example-wrong.png" width="500">
 
-<img src="figures/info-example-topic.png" width="400">
+<img src="figures/info-example-topic.png" width="500">
 
-<img src="figures/info-example-partial.png" width="400">
+<img src="figures/info-example-partial.png" width="500">
 
-<img src="figures/info-example-perfect.png" width="400">
+<img src="figures/info-example-perfect.png" width="500">
 
 
 ## Acknowledgements
