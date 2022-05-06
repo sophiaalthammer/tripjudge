@@ -40,6 +40,40 @@ The judgements where created using:
 - monitoring the annotation time per annotator
 
 
+## Annotation guidelines
+
+The annotation guidelines given to the annotators were the following:
+
+Welcome to Fira! Our goal is to create fine-grained relevance annotations for query - document snippet pairs.
+
+In the annotation interface you will see 1 query and 1 document snippet and a range of relevance classes to select.
+
+<img src="figures/info-page-labels.png" width="800">
+
+For each pair you must select 1 from 4 relevance classes: </br><ul>
+<li><b>Wrong</b> If the document has nothing to do with the query, and does not help in any way to answer it</li>
+<li><b>Topic</b> If the document talks about the general area or topic of a query, might provide some background info, but ultimately does not answer it</li>
+<li><b>Partial</b> The document contains a partial answer, but you think that there should be more to it</li>
+<li><b>Perfect</b> The document contains a full answer: easy to understand and it directly answers the question in full
+
+<hr><b>Important annotation guidelines and Fira usage tips:</b> <br><br>
+<b>(1)</b> You should use your general knowledge to deduce links between query and answers, but if you don't know what the question (or part of it such as an acronym) means, " +
+        'fall back to see if the document clearly explains the question and answer and if not score it as <b>Wrong</b> or <b>Topic</b> only. We do not assume specific domain knowledge requirements.
+
+<b>(2)</b> For <b>Partial</b> and <b>Perfect</b> grades you need to select the text spans, that are in fact the relevant text parts to the questions. You can select multiple words (the span) with your mouse or by once tapping or clicking on the start and once on the end of the span. ' +
+        'You can select more than one and you can also select them before clicking on the grade button. Below is an example of two selected spans:'
+
+Now before we get started, let's have a look at an example from each relevance grade:
+
+<img src="figures/info-example-wrong.png" width="400">
+
+<img src="figures/info-example-topic.png" width="400">
+
+<img src="figures/info-example-partial.png" width="400">
+
+<img src="figures/info-example-perfect.png" width="400">
+
+
 ## Acknowledgements
 
 We thank our students of the Advanced Information Retrieval course in SS2022 for annotating the data and being so patient and motivated in the process. 
