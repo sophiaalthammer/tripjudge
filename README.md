@@ -39,6 +39,16 @@ The judgements where created using:
 - achieving moderate inter-annotator agreement
 - monitoring the annotation time per annotator
 
+The published raw annotations are the judgements for all 1175 TripClick head test queries.
+We clean the test set by removing queries that are duplicates (only differ in casing) or non-sense queries (for example '#1 and #2'), the
+[reasons for removal](preprocessing/reasons%20for%20removals.xlsx) can be found in the [preprocessing](preprocessing) folder, 
+as well as the [removed](preprocessing/queries_remove_cleaned.tsv) and [remaining](preprocessing/queries_remain_cleaned.tsv) queries.
+
+The qrels are generated using the [following script](annotation/generate_qrels.py), where queries are cleaned and the majority and heuristic voting is applied.
+
+We preprocess the documents for the annotation campaign by truncating them to the length of 512 BERT tokens. The [preprocessing script](preprocessing/trip_preprocessing.py)
+is published as well.
+
 
 ## Annotation guidelines
 
