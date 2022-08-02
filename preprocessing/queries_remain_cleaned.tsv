@@ -1,0 +1,1137 @@
+	query_id	query_text
+0	trip_24	pain management nursing
+1	trip_40	food intolerance
+2	trip_55	green tea
+3	trip_59	paediatric intensive care
+4	trip_67	diarrhea children
+5	trip_100	cuidados paliativos
+6	trip_164	otitis media
+7	trip_263	diabetic nephropathy
+8	trip_319	pressure ulcer
+9	trip_356	parenteral nutrition
+10	trip_391	carpal tunnel syndrome
+11	trip_392	foot reflexology
+12	trip_559	antibiotic resistance
+13	trip_659	neonatal abstinence
+14	trip_681	dementia screening
+15	trip_689	occupational therapy stroke
+16	trip_704	asthma children
+17	trip_766	cancer pain
+18	trip_823	diabetic neuropathy
+19	trip_835	laparoscopic cholecystectomy
+20	trip_903	achilles tendinopathy
+21	trip_908	cervical cancer
+22	trip_937	erectile dysfunction
+23	trip_980	pleural effusion
+24	trip_1007	breast cancer screening
+25	trip_1051	testosterone replacement therapy
+26	trip_1071	low back pain
+27	trip_1076	asthma education children
+28	trip_1112	proton pump inhibitors osteoporosis
+29	trip_1118	renal failure
+30	trip_1180	post lumbar puncture headache
+31	trip_1184	vulvovaginal candidiasis
+32	trip_1189	Sleep apnea
+33	trip_1255	obstructive sleep apnea
+34	trip_1291	macular degeneration
+35	trip_1300	panic disorder treatment
+36	trip_1337	urinary tract infection
+37	trip_1341	induction of labor
+38	trip_1351	infection control
+39	trip_1353	acute sinusitis
+40	trip_1427	congenital adrenal hyperplasia
+41	trip_1454	procalcitonin sepsis
+42	trip_1499	childhood obesity prevention
+43	trip_1503	adolescent idiopathic scoliosis
+44	trip_1541	cervical cerclage
+45	trip_1585	obsessive compulsive disorder
+46	trip_1599	irritable bowel syndrome
+47	trip_1602	hepatitis c
+48	trip_1617	infective endocarditis
+49	trip_1620	threatened abortion
+50	trip_1628	2 diabetes
+51	trip_1648	venous thromboembolism
+52	trip_1650	kidney disease
+53	trip_1653	vitamin D
+54	trip_1668	otitis media children
+55	trip_1719	pneumonia treatment
+56	trip_1725	spironolactone heart failure
+57	trip_1728	diabetes and hypertension
+58	trip_1729	heart disease
+59	trip_1730	bell's palsy
+60	trip_1734	influenza vaccine
+61	trip_1839	pyelonephritis treatment
+62	trip_1868	asthma treatment
+63	trip_1908	asthma exacerbation
+64	trip_1947	shock septic
+65	trip_2032	whooping cough
+66	trip_2049	mild cognitive impairment
+67	trip_2130	contrast induced nephropathy
+68	trip_2151	breast feeding
+69	trip_2160	emergency contraception
+70	trip_2213	arterial hypertension
+71	trip_2276	trigger finger
+72	trip_2294	pulmonary hypertension
+73	trip_2298	urinary catheter care
+74	trip_2330	endometrial cancer
+75	trip_2365	cataract surgery
+76	trip_2387	diabetic retinopathy
+77	trip_2474	communication skills
+78	trip_2506	Cerebral palsy
+79	trip_2559	pediatric asthma
+80	trip_2560	autism spectrum disorders
+81	trip_2571	carotid endarterectomy
+82	trip_2672	lichen sclerosus
+83	trip_2677	carotid stenosis
+84	trip_2767	patient falls
+85	trip_2884	hpv vaccination
+86	trip_2909	Glasgow coma scale
+87	trip_2910	borderline personality disorder
+88	trip_2919	pain management
+89	trip_3006	tinea corporis
+90	trip_3040	psa screening
+91	trip_3060	dental amalgam
+92	trip_3092	chronic fatigue
+93	trip_3096	vitamin c cold
+94	trip_3102	preoperative hair removal
+95	trip_3115	glass ionomer
+96	trip_3203	ldl cholesterol
+97	trip_3317	anorexia nervosa
+98	trip_3390	physical activity
+99	trip_3427	heart attack
+100	trip_3450	scabies treatment
+101	trip_3527	magnesium sulfate
+102	trip_3666	treatment resistant depression
+103	trip_3756	urinary infection
+104	trip_3804	dental caries
+105	trip_3816	hypertension elderly
+106	trip_3844	induction of labour
+107	trip_3887	hand hygiene
+108	trip_3957	knee arthroplasty
+109	trip_3995	postoperative pain
+110	trip_4003	enteral nutrition
+111	trip_4014	nursing education
+112	trip_4051	bruxism children
+113	trip_4059	diabetic foot infection
+114	trip_4096	hypertension treatment
+115	trip_4266	cardiorenal syndrome
+116	trip_4284	postnatal depression
+117	trip_4291	acute abdominal pain
+118	trip_4292	artritis reumatoide
+119	trip_4312	glatiramer acetate multiple sclerosis
+120	trip_4378	intraosseous access
+121	trip_4386	febrile seizures
+122	trip_4426	anemia pregnancy
+123	trip_4465	blood pressure measurement
+124	trip_4485	chronic kidney disease
+125	trip_4498	cardiovascular risk
+126	trip_4518	infectious mononucleosis
+127	trip_4538	lung cancer screening
+128	trip_4543	video games
+129	trip_4630	ipilimumab melanoma
+130	trip_4689	icu delirium
+131	trip_4715	stroke prevention
+132	trip_4720	mental health
+133	trip_4776	telemedicine telehealth
+134	trip_4792	patellofemoral pain syndrome
+135	trip_4882	patient empowerment
+136	trip_4932	personality disorder
+137	trip_4944	otitis media antibiotics
+138	trip_4996	deep venous thrombosis
+139	trip_5087	osteoporosis treatment
+140	trip_5124	child abuse
+141	trip_5221	post partum hemorrhage
+142	trip_5243	psoriatic arthritis
+143	trip_5268	topical nsaids
+144	trip_5431	hernia inguinal
+145	trip_5433	occupational therapy
+146	trip_5551	placenta previa
+147	trip_5578	acute pulmonary edema
+148	trip_5586	pressure ulcers nutrition
+149	trip_5618	craniosacral therapy
+150	trip_5650	streptococcus pneumoniae
+151	trip_5665	yoga back pain
+152	trip_5673	thyroid nodule
+153	trip_5789	vitamin b12
+154	trip_5842	mental health stigma
+155	trip_5851	folic acid pregnancy
+156	trip_5898	atopic dermatitis
+157	trip_6022	catheter associated urinary tract infection
+158	trip_6038	surgical site infection
+159	trip_6081	antenatal care
+160	trip_6160	spinal immobilization
+161	trip_6172	elderly depression
+162	trip_6223	epilepsy treatment
+163	trip_6280	fever children
+164	trip_6319	aspirin primary prevention
+165	trip_6493	smoking cessation
+166	trip_6580	migraine prophylaxis
+167	trip_6590	gestational hypertension
+168	trip_6645	chronic pancreatitis
+169	trip_6673	multiple myeloma
+170	trip_6680	prevention surgical site infection
+171	trip_6727	bacterial peritonitis
+172	trip_6825	nephrotic syndrome
+173	trip_6847	emergency medicine
+174	trip_6890	peptic ulcer disease
+175	trip_6917	bronchial thermoplasty
+176	trip_7023	iron deficiency anemia
+177	trip_7060	Breast cancer
+178	trip_7082	breaking bad news
+179	trip_7103	nosocomial pneumonia
+180	trip_7135	congestive heart failure
+181	trip_7140	dry needling
+182	trip_7145	prevention of pressure ulcers
+183	trip_7189	acute apendicitis
+184	trip_7200	total hip arthroplasty
+185	trip_7224	qualitative research
+186	trip_7235	colorectal cancer screening
+187	trip_7250	herniated disc
+188	trip_7272	inguinal hernia
+189	trip_7387	teenage pregnancy
+190	trip_7411	lateral epicondylitis
+191	trip_7440	chest pain emergency
+192	trip_7458	intrauterine growth restriction
+193	trip_7620	coronary artery disease
+194	trip_7691	aortic aneurysm
+195	trip_7770	Acute kidney injury
+196	trip_7811	systemic lupus erythematosus
+197	trip_7847	osteoarthritis treatment
+198	trip_7927	eczema treatment
+199	trip_7939	postpartum depression
+200	trip_7947	lung cancer
+201	trip_7954	acute bronchiolitis
+202	trip_7964	gastroesophageal reflux
+203	trip_7965	postpartum psychosis
+204	trip_7986	falls prevention
+205	trip_8090	diabetes mellitus
+206	trip_8184	cerebellar ataxia
+207	trip_8345	sedation icu
+208	trip_8459	anterior cruciate ligament
+209	trip_8530	pressure ulcers treatment
+210	trip_8543	Multiple sclerosis
+211	trip_8596	nephrotic syndrome children
+212	trip_8698	denosumab osteoporosis
+213	trip_8718	polycystic ovary
+214	trip_8722	polycystic ovary syndrome
+215	trip_8798	polycystic kidney disease
+216	trip_8872	acute myocardial infarction
+217	trip_8907	negative pressure wound therapy
+218	trip_8962	falls elderly
+219	trip_9074	hellp syndrome
+220	trip_9113	leadership nursing
+221	trip_9126	scaphoid fracture diagnosis
+222	trip_9133	ovarian cancer
+223	trip_9138	orthostatic hypotension
+224	trip_9262	cancer cachexia
+225	trip_9290	dilated cardiomyopathy
+226	trip_9331	bacterial vaginosis
+227	trip_9365	tennis elbow and steroids
+228	trip_9376	trochanteric bursitis
+229	trip_9447	silver dressings
+230	trip_9547	acute asthma
+231	trip_9639	prenatal care
+232	trip_9715	hyperbaric oxygen
+233	trip_9721	onychomycosis laser
+234	trip_9816	vitamin c
+235	trip_9870	guillain barre syndrome
+236	trip_9999	intimate partner violence
+237	trip_10018	malignant hyperthermia
+238	trip_10024	schizophrenia treatment
+239	trip_10095	preoperative anxiety
+240	trip_10098	endometrial polyps
+241	trip_10107	septic arthritis
+242	trip_10116	pain assessment
+243	trip_10117	chronic fatigue syndrome
+244	trip_10159	early warning score
+245	trip_10209	music therapy
+246	trip_10296	fish oil
+247	trip_10297	spinal muscular atrophy
+248	trip_10335	childhood obesity
+249	trip_10757	alzheimer's disease
+250	trip_10867	bipolar disorder
+251	trip_10888	copd exercise
+252	trip_10906	ruxolitinib myelofibrosis
+253	trip_10911	hip fracture
+254	trip_10916	liver transplantation
+255	trip_11116	obesity prevention
+256	trip_11236	renal tubular acidosis
+257	trip_11271	biliary atresia
+258	trip_11276	community acquired pneumonia guidelines
+259	trip_11331	intragastric balloon
+260	trip_11336	cancer pain management
+261	trip_11390	venous leg ulcer
+262	trip_11438	infant colic treatment
+263	trip_11477	insulin pump
+264	trip_11656	nurse burnout
+265	trip_11778	nebulized hypertonic saline
+266	trip_11826	chondromalacia patellae
+267	trip_11847	hypertension diabetes
+268	trip_11880	dabigatran versus warfarin
+269	trip_11914	nasal irrigation
+270	trip_12058	emergency department
+271	trip_12061	severe preeclampsia
+272	trip_12073	skin abscess
+273	trip_12115	depression psychotherapy
+274	trip_12201	music therapy autism
+275	trip_12218	fibromyalgia diagnosis
+276	trip_12272	retinopathy of prematurity
+277	trip_12335	stroke rehabilitation physiotherapy
+278	trip_12363	diverticulitis treatment
+279	trip_12404	first episode psychosis
+280	trip_12439	fetal alcohol syndrome
+281	trip_12457	chronic obstructive pulmonary disease
+282	trip_12751	factor v leiden
+283	trip_12768	prostate cancer
+284	trip_12770	Back pain
+285	trip_12787	knee osteoarthritis
+286	trip_12828	compassion fatigue nursing
+287	trip_12877	portal hypertension
+288	trip_12914	allergic conjunctivitis
+289	trip_13007	preterm labour
+290	trip_13200	breast cancer screening guidelines
+291	trip_13392	tennis elbow
+292	trip_13491	spinal anesthesia
+293	trip_13518	teen pregnancy
+294	trip_13739	gestational diabetes mellitus
+295	trip_13770	anorexia nervosa treatment
+296	trip_13771	hay fever
+297	trip_13781	aortic stenosis
+298	trip_13822	exercise depression
+299	trip_13901	hepatorenal syndrome
+300	trip_13986	diabetic retinopathy screening
+301	trip_14009	massage therapy
+302	trip_14139	multiple sclerosis exercise
+303	trip_14346	gestational diabetes diagnosis
+304	trip_14584	type 1 diabetes
+305	trip_14627	abdominal pain
+306	trip_14760	comprehensive geriatric assessment
+307	trip_14909	testosterone replacement
+308	trip_14967	sepsis immunoglobulin
+309	trip_15113	knee replacement
+310	trip_15123	non small cell lung cancer
+311	trip_15174	medication reconciliation
+312	trip_15256	umbilical cord
+313	trip_15291	facial paralysis
+314	trip_15297	digoxin toxicity
+315	trip_15300	aspirin diabetes
+316	trip_15429	intertrochanteric fracture
+317	trip_15440	multiple myeloma bortezomib
+318	trip_15733	Heart failure
+319	trip_16172	ketogenic diet epilepsy
+320	trip_16314	non invasive ventilation
+321	trip_16358	parkinson disease
+322	trip_16418	c reactive protein
+323	trip_16422	urinary catheterization
+324	trip_16477	end of life
+325	trip_16490	nosocomial infection
+326	trip_16635	post partum depression
+327	trip_16792	Antidepressant Efficacy
+328	trip_16860	appendicitis appendectomy antibiotics
+329	trip_16866	blood transfusion
+330	trip_16870	laparoscopic assisted vaginal hysterectomy
+331	trip_16952	alopecia areata
+332	trip_17076	health promotion
+333	trip_17229	intrauterine insemination
+334	trip_17238	chlorhexidine gluconate
+335	trip_17249	polypharmacy elderly
+336	trip_17345	edinburgh postnatal depression scale
+337	trip_17471	postpartum hemorrhage
+338	trip_17522	ectopic pregnancy methotrexate
+339	trip_17528	spina bifida
+340	trip_17660	nurse prescribing
+341	trip_17848	sepsis procalcitonin
+342	trip_17865	pediatric palliative care
+343	trip_17869	mild traumatic brain injury
+344	trip_17886	herpes zoster vaccine
+345	trip_17892	blood transfusion guidelines
+346	trip_17943	Bell palsy
+347	trip_18191	placenta accreta
+348	trip_18223	healing touch
+349	trip_18302	adolescent obesity
+350	trip_18310	wound care
+351	trip_18547	cardiopulmonary resuscitation
+352	trip_18717	bipolar disorder treatment
+353	trip_18783	hypertrophic cardiomyopathy
+354	trip_18835	renal colic
+355	trip_18896	opioid induced hyperalgesia
+356	trip_18948	postoperative nausea vomiting
+357	trip_18969	nursing research
+358	trip_19109	medication errors nursing
+359	trip_19144	new research area for nurse
+360	trip_19286	bcg vaccine
+361	trip_19422	mental illness
+362	trip_19490	hiatal hernia
+363	trip_19548	aquatic therapy
+364	trip_19655	mallet finger
+365	trip_19974	liverpool care pathway
+366	trip_19984	oral hygiene
+367	trip_20170	borderline personality disorder treatment
+368	trip_20214	benzodiazepine withdrawal
+369	trip_20283	schizophrenia antipsychotics
+370	trip_20292	transverse myelitis
+371	trip_20306	gastric bypass
+372	trip_20391	centor score
+373	trip_20435	sudden infant death
+374	trip_20440	evidence based practice nursing
+375	trip_20453	meconium aspiration syndrome
+376	trip_20517	statin diabetes
+377	trip_20603	toxoplasmosis pregnancy
+378	trip_20761	elderly fall prevention
+379	trip_20770	peripherally inserted central catheter
+380	trip_20854	proton beam therapy
+381	trip_20896	stem cell
+382	trip_21205	gastrostomy children
+383	trip_21268	epidermolysis bullosa
+384	trip_21275	noise induced hearing loss
+385	trip_21532	stenotrophomonas maltophilia treatment
+386	trip_21570	hepatitis b
+387	trip_21643	person centred care
+388	trip_21767	therapeutic hypothermia cardiac arrest
+389	trip_21822	dental fluorosis
+390	trip_21992	prenatal screening
+391	trip_22008	family intervention schizophrenia
+392	trip_22120	pediatric pain management
+393	trip_22332	islet transplantation
+394	trip_22334	homeopathy efficacy
+395	trip_22345	intensive care unit
+396	trip_22349	prophylactic mastectomy
+397	trip_22390	Stenotrophomonas maltophilia
+398	trip_22420	cinnamon diabetes
+399	trip_22509	knowledge translation
+400	trip_22673	breast tomosynthesis
+401	trip_22748	herpes labialis
+402	trip_22917	case management
+403	trip_23112	mindful eating
+404	trip_23137	atrial fibrillation ablation
+405	trip_23195	bacterial vaginosis pregnancy
+406	trip_23239	diabetic neuropathy treatment
+407	trip_23262	mitral valve prolapse
+408	trip_23294	omalizumab asthma
+409	trip_23371	uterine atony
+410	trip_23440	burning mouth syndrome
+411	trip_23493	dementia treatment
+412	trip_23585	preterm birth
+413	trip_23590	end of life care
+414	trip_23619	ovarian cyst
+415	trip_23721	autoimmune hemolytic anemia
+416	trip_23809	blood pressure
+417	trip_23830	diarrhea probiotics
+418	trip_24054	quality improvement
+419	trip_24088	night shift
+420	trip_24093	acute stroke
+421	trip_24228	kangaroo mother care
+422	trip_24331	nursing burnout
+423	trip_24337	chronic diarrhea
+424	trip_24509	tension headache
+425	trip_24707	neuropatic pain
+426	trip_24833	pelvic organ prolapse
+427	trip_25197	inhaled corticosteroids asthma
+428	trip_25233	Diabetic Ketoacidosis
+429	trip_25293	bariatric surgery diabetes
+430	trip_25401	uterine rupture
+431	trip_25760	flu vaccine effectiveness
+432	trip_25843	stevens johnson syndrome
+433	trip_25851	meniere's disease
+434	trip_26006	adhesive capsulitis
+435	trip_26020	Neonatal jaundice
+436	trip_26038	low back pain physiotherapy
+437	trip_26042	fish oil cardiovascular disease
+438	trip_26149	h. pylori laboratory
+439	trip_26218	uterine fibroids
+440	trip_26234	duchenne muscular dystrophy
+441	trip_26723	acute urticaria
+442	trip_27014	teach back
+443	trip_27040	post partum haemorrhage
+444	trip_27071	intestinal obstruction
+445	trip_27097	Delayed cord clamping
+446	trip_27341	intussusception children
+447	trip_27480	lupus nephritis
+448	trip_27540	delirium elderly
+449	trip_27953	external cephalic version
+450	trip_28052	chronic gastritis
+451	trip_28113	ozone therapy
+452	trip_28301	kidney cancer
+453	trip_28309	diabetes pregnancy
+454	trip_28371	acute otitis media antibiotics
+455	trip_28377	hearing loss
+456	trip_28444	omega cardiovascular disease
+457	trip_28549	premature ejaculation
+458	trip_28591	molluscum contagiosum
+459	trip_28710	chlamydia screening
+460	trip_28733	fatty liver
+461	trip_28770	hypothyroidism treatment
+462	trip_28964	bipolar disorder treatment guidelines
+463	trip_28980	frozen shoulder treatment
+464	trip_29090	central line infection prevention
+465	trip_29178	venous insufficiency
+466	trip_29323	crown lengthening
+467	trip_29457	influenza tamiflu
+468	trip_29539	hypercalcemia malignancy
+469	trip_29591	cranberry urinary tract infection
+470	trip_29664	chest pain
+471	trip_29754	meningitis dexamethasone
+472	trip_29798	alteplase stroke
+473	trip_30205	skin cancer
+474	trip_30228	peanut allergy
+475	trip_30630	chronic pain management
+476	trip_30695	weight loss
+477	trip_30833	hyaluronic acid osteoarthritis
+478	trip_30903	sexually transmitted diseases
+479	trip_31019	giant cell arteritis treatment
+480	trip_31051	glucosamine sulfate
+481	trip_31056	diabetes gestacional
+482	trip_31723	atrial fibrillation apixaban
+483	trip_31852	otitis media with effusion
+484	trip_31975	knee pain
+485	trip_32342	cold vitamin c
+486	trip_32894	sepsis neonatal
+487	trip_32973	inhaler technique
+488	trip_33275	acute cholangitis
+489	trip_33312	music therapy depression
+490	trip_33339	influenza vaccine effectiveness
+491	trip_33446	chest trauma
+492	trip_33538	acute pain management guidelines
+493	trip_33539	hypertension pregnancy
+494	trip_33647	rivaroxaban pulmonary embolism
+495	trip_33710	liver failure
+496	trip_33913	pelvic floor
+497	trip_33928	practice guidelines
+498	trip_33954	glucosamine chondroitin osteoarthritis
+499	trip_34004	Traumatic brain injury
+500	trip_34018	preeclampsia treatment
+501	trip_34133	placenta previa management
+502	trip_34345	mindfulness meditation
+503	trip_34419	clostridium difficile probiotics
+504	trip_34700	Rheumatoid arthritis
+505	trip_34836	respite care
+506	trip_34839	ultrasound pneumonia
+507	trip_34935	umbilical cord blood
+508	trip_34940	hypertension pulmonary
+509	trip_35481	pulmonary fibrosis
+510	trip_35608	dysphagia elderly
+511	trip_35792	skin to skin contact after birth
+512	trip_35838	suicide prevention
+513	trip_35947	lithium toxicity
+514	trip_36190	green tea weight loss
+515	trip_36249	clinical decision support systems
+516	trip_36377	delirium treatment
+517	trip_36421	status epilepticus children
+518	trip_36481	cervical radiculopathy
+519	trip_36495	peripheral neuropathy
+520	trip_36510	gout treatment
+521	trip_36609	respiratory distress syndrome
+522	trip_36699	bipolar disorder lithium
+523	trip_36857	aspergillosis galactomannan
+524	trip_36890	vulvar cancer
+525	trip_37099	constipation palliative care
+526	trip_37163	pelvic girdle pain
+527	trip_37333	gestational trophoblastic disease
+528	trip_37465	bulimia nervosa
+529	trip_38124	nasogastric tube insertion
+530	trip_38180	cough treatment
+531	trip_38323	alternative medicine
+532	trip_38363	tiotropium asthma
+533	trip_38557	hand hygiene compliance
+534	trip_38568	maggot therapy
+535	trip_38960	neurogenic bladder
+536	trip_39079	suicide risk factors
+537	trip_39141	sepsis guidelines
+538	trip_39200	ambulatory blood pressure monitoring
+539	trip_39292	trigeminal neuralgia
+540	trip_39306	traumatic brain injury rehabilitation
+541	trip_39545	fasting preoperative
+542	trip_39597	ankle injuries
+543	trip_39624	supraspinatus tendinopathy
+544	trip_40190	traumatic brain injury guidelines
+545	trip_40201	vegetarian diet
+546	trip_40691	venous catheter
+547	trip_40919	fascitis plantar
+548	trip_41019	vitamin c common cold
+549	trip_41125	smoking cessation primary care
+550	trip_41284	Bispectral index
+551	trip_41293	psoriasis treatment
+552	trip_41447	diabetes aspirin primary prevention
+553	trip_41452	oseltamivir treatment
+554	trip_41515	azithromycin copd
+555	trip_41684	compartment syndrome
+556	trip_41789	type 2 diabetes mellitus
+557	trip_42243	autism diet
+558	trip_42296	statins cardiovascular diseases
+559	trip_42360	family presence during resuscitation
+560	trip_42364	cbt depression
+561	trip_42491	mediterranean diet cardiovascular
+562	trip_42606	Physical Therapy
+563	trip_42721	emergency department overcrowding
+564	trip_42831	children obesity
+565	trip_42869	preterm infant
+566	trip_42961	needle exchange programs
+567	trip_43111	postoperative pain management
+568	trip_43186	social isolation elderly
+569	trip_43713	lactose intolerance children
+570	trip_43936	critical thinking
+571	trip_44058	wound debridement
+572	trip_44138	generalized anxiety disorder treatment
+573	trip_44377	statin primary prevention
+574	trip_44401	antibiotic stewardship
+575	trip_44632	varenicline smoking cessation
+576	trip_44634	ectopic pregnancy management
+577	trip_45242	early mobility
+578	trip_45382	diastasis recti
+579	trip_45933	stable angina
+580	trip_46564	pregnancy nutrition
+581	trip_46810	vertigo treatment
+582	trip_47480	nausea vomiting pregnancy
+583	trip_47584	hierarchy of evidence
+584	trip_47781	stiff person syndrome
+585	trip_48670	hip fracture surgery
+586	trip_48709	depression exercise
+587	trip_48943	acute respiratory failure
+588	trip_48982	epidural analgesia
+589	trip_49191	alcohol pregnancy
+590	trip_49219	umbilical cord clamping
+591	trip_49278	obesity in children
+592	trip_49475	sleeve gastrectomy
+593	trip_49772	venous ulcers
+594	trip_49806	pulse oximetry screening congenital heart disease
+595	trip_49941	clopidogrel proton pump inhibitors
+596	trip_50063	respiratory syncytial virus
+597	trip_50162	renal colic treatment
+598	trip_50720	perioral dermatitis
+599	trip_51027	phlebitis treatment
+600	trip_51344	amyotrophic lateral sclerosis
+601	trip_51519	community acquired pneumonia treatment short course
+602	trip_51818	adolescent depression treatment
+603	trip_52584	nasogastric tube placement verification
+604	trip_52766	misoprostol postpartum hemorrhage
+605	trip_52913	meta analysis
+606	trip_52953	needlestick injury
+607	trip_53503	electroconvulsive therapy depression
+608	trip_53504	parkinson's disease treatment
+609	trip_54317	renal cell carcinoma
+610	trip_54459	calcaneal apophysitis
+611	trip_54544	nutrition pregnancy
+612	trip_55092	misoprostol abortion
+613	trip_55387	pregabalin anxiety
+614	trip_55431	dementia pain assessment
+615	trip_55546	stroke management
+616	trip_55554	postmenopausal osteoporosis
+617	trip_55938	brentuximab vedotin
+618	trip_56094	hidradenitis suppurativa
+619	trip_56111	partial caries removal
+620	trip_56128	ostomy care
+621	trip_56464	osgood schlatter treatment
+622	trip_56494	temporal arteritis
+623	trip_56506	rett syndrome
+624	trip_56620	menopause treatment
+625	trip_56740	caregiver burden
+626	trip_56900	self monitoring blood glucose type 2
+627	trip_56903	reminiscence therapy
+628	trip_56975	neonatal asphyxia
+629	trip_57355	smoking cessation interventions
+630	trip_57755	alcohol and pregnancy
+631	trip_57861	high flow nasal cannula neonate
+632	trip_58050	menstrual migraine
+633	trip_58276	focal segmental glomerulosclerosis
+634	trip_58584	rectal cancer
+635	trip_58630	child abuse prevention
+636	trip_58912	depression music
+637	trip_59083	endometriosis and infertility
+638	trip_59464	contact dermatitis
+639	trip_59524	delirium prevention
+640	trip_59616	panitumumab colorectal cancer
+641	trip_59748	postpartum contraception
+642	trip_60324	carpal tunnel syndrome surgery
+643	trip_60729	antenatal education
+644	trip_60907	probiotics children
+645	trip_61087	fever unknown origin
+646	trip_61655	bulimia nervosa treatment
+647	trip_62282	paracetamol toxicity
+648	trip_63009	mesenteric adenitis
+649	trip_64205	animal assisted therapy dementia
+650	trip_64468	restless leg syndrome treatment
+651	trip_64542	thyroid pregnancy
+652	trip_64590	psa testing
+653	trip_64636	compassion fatigue
+654	trip_64742	music therapy and dementia
+655	trip_64947	statin intolerance
+656	trip_65051	family witnessed resuscitation
+657	trip_65093	fast track surgery
+658	trip_65180	peripheral artery disease
+659	trip_65255	hypothyroidism review
+660	trip_65637	osteoarthritis and glucosamine
+661	trip_65708	incontinence associated dermatitis
+662	trip_66009	bedside report
+663	trip_66245	spinal manipulation
+664	trip_66650	Ankylosing spondylitis
+665	trip_66951	surviving sepsis campaign
+666	trip_67205	congenital syphilis
+667	trip_68768	early onset neonatal sepsis
+668	trip_68916	deodorant breast cancer
+669	trip_69076	pompe disease
+670	trip_69341	family presence during cardiopulmonary resuscitation
+671	trip_69387	hashimoto thyroiditis
+672	trip_69555	low back pain guideline
+673	trip_69729	high intensity interval training
+674	trip_69822	hippotherapy cerebral palsy
+675	trip_70825	emotional intelligence
+676	trip_71351	hydrocolloid dressing
+677	trip_71570	tuberous sclerosis complex
+678	trip_71700	nursing handoff
+679	trip_71720	ulnar translocation ulnocarpal translocation ulnar translation
+680	trip_71824	g6pd deficiency
+681	trip_72484	agomelatine depression
+682	trip_72768	ischemic stroke treatment
+683	trip_72898	asymptomatic hyperuricemia
+684	trip_73110	amitriptyline migraine
+685	trip_73133	chronic lymphocytic leukemia
+686	trip_73572	fluoride water
+687	trip_73921	ivabradine heart failure
+688	trip_74267	stroke thrombolysis
+689	trip_74374	curcumin osteoarthritis
+690	trip_74518	postpartum care
+691	trip_74635	heart failure carvedilol metoprolol mortality
+692	trip_74993	pneumonia children treatment
+693	trip_75450	catheter associated urinary tract infections
+694	trip_75466	decubitus prevention
+695	trip_75891	Helicobacter pylori
+696	trip_76480	ankylosing spondylitis treatment
+697	trip_76770	subtrochanteric fracture
+698	trip_77510	diabetic ketoacidosis treatment guidelines
+699	trip_77551	intermittent fasting weight loss
+700	trip_77745	umbilical catheter
+701	trip_77905	spinal cord compression
+702	trip_78775	twin pregnancy
+703	trip_78880	ehr implementation
+704	trip_79007	body dysmorphic disorder
+705	trip_79390	urinary incontinence women
+706	trip_79477	social anxiety disorder treatment
+707	trip_79751	idiopathic thrombocytopenic purpura
+708	trip_80478	mood disorder questionnaire
+709	trip_80508	irreversible electroporation
+710	trip_80628	peripartum cardiomyopathy
+711	trip_81161	impetigo treatment
+712	trip_82492	rotator cuff injury
+713	trip_82512	endothelial progenitor cells and cardiovascular disease
+714	trip_82840	hormonal contraception
+715	trip_83020	asthma education
+716	trip_83192	baby led weaning
+717	trip_84488	chronic pain opioid
+718	trip_84693	echinacea and common cold
+719	trip_84703	gestational diabetes management
+720	trip_84891	prader willi
+721	trip_85811	hirschsprung disease
+722	trip_85867	leptospirosis review
+723	trip_86447	primary care smoking cessation
+724	trip_86723	dental implant failure
+725	trip_86747	myelodysplastic syndrome
+726	trip_87194	umbilical cord blood banking
+727	trip_87505	tuberculosis pulmonary
+728	trip_87746	nocturnal enuresis children
+729	trip_87830	latex allergy
+730	trip_87934	treatment osteoporosis
+731	trip_87970	oral care
+732	trip_88625	misoprostol hysteroscopy
+733	trip_89132	obesity microbiota
+734	trip_89645	asthma guidelines
+735	trip_89811	umbilical hernia
+736	trip_90244	blood cultures
+737	trip_90335	cystic fibrosis nutrition
+738	trip_90339	adolescent suicide
+739	trip_91392	beers criteria
+740	trip_91659	white coat hypertension
+741	trip_92441	cleft lip and palate
+742	trip_92490	oral care ventilator associated pneumonia
+743	trip_94141	magnesium sulphate asthma
+744	trip_94256	zinc deficiency
+745	trip_94317	ipratropium asthma
+746	trip_94406	skin to skin
+747	trip_95227	breast cancer prevention
+748	trip_95493	dysphagia and stroke
+749	trip_95680	tranexamic acid and trauma
+750	trip_95696	post traumatic stress
+751	trip_96000	spinal stenosis treatment
+752	trip_96061	epilepsy surgery
+753	trip_96140	tobacco cessation
+754	trip_96754	depression postpartum
+755	trip_97169	oil pulling
+756	trip_97496	acupuncture low back pain
+757	trip_97810	guillain barre syndrome review
+758	trip_98377	tetralogy of fallot
+759	trip_98529	epilepsy elderly
+760	trip_98830	common cold children
+761	trip_99065	Pelvic inflammatory disease
+762	trip_99596	spa therapy
+763	trip_101134	dengue fever
+764	trip_101137	tongue tie
+765	trip_101283	pregnancy exercise
+766	trip_101405	lung cancer treatment
+767	trip_101781	complicated grief
+768	trip_102399	infection prevention
+769	trip_102960	acute gastroenteritis children
+770	trip_104417	breastfeeding initiation
+771	trip_104827	preoperative fasting aspiration
+772	trip_105106	kangaroo mother care preterm
+773	trip_105495	Gestational Diabetes
+774	trip_106061	pediatric triage
+775	trip_106951	melatonin children
+776	trip_106953	concussion management
+777	trip_107040	acupuncture smoking cessation
+778	trip_108192	sunitinib renal cell carcinoma
+779	trip_108404	parkinson's disease occupational therapy
+780	trip_108822	accidental falls prevention
+781	trip_109292	cancer immunotherapy
+782	trip_109535	hypertensive urgency
+783	trip_109656	alcoholic cirrhosis
+784	trip_110278	COPD exacerbation antibiotics
+785	trip_111389	aspirin and primary prevention
+786	trip_111700	jet lag
+787	trip_112610	pulmonary tuberculosis guideline children
+788	trip_113248	chronic fatigue syndrome treatment
+789	trip_114072	kidney transplantation
+790	trip_114141	aromatherapy cancer
+791	trip_114239	headache guidelines
+792	trip_115209	ginkgo biloba memory
+793	trip_115398	folic acid and neural tube defects
+794	trip_116082	pcos metformin
+795	trip_116460	hair loss
+796	trip_117552	COPD depression
+797	trip_117599	e cigarettes
+798	trip_117925	essential hypertension
+799	trip_118678	stroke mirror therapy
+800	trip_118714	epidural analgesia labour
+801	trip_119168	catheter venous peripheral
+802	trip_119214	strength training elderly
+803	trip_119293	prostate cancer screening guidelines
+804	trip_120723	nuchal cord
+805	trip_120930	forensic medicine
+806	trip_121843	vaccines autism
+807	trip_122892	acupuncture back pain
+808	trip_124627	operating room efficiency
+809	trip_124955	emotional freedom technique
+810	trip_125890	pain palliative care
+811	trip_125891	dialectical behavior therapy borderline personality
+812	trip_126682	neuroleptic malignant syndrome
+813	trip_132548	surgical safety checklist
+814	trip_132569	testicular torsion
+815	trip_132679	greater trochanteric pain syndrome
+816	trip_132797	sepsis pregnancy
+817	trip_134115	copd treatment guidelines
+818	trip_134348	atrial fibrillation screening
+819	trip_136623	breast cancer guidelines
+820	trip_137271	naltrexone fibromyalgia
+821	trip_137884	depression in adolescents
+822	trip_139619	olanzapine anorexia nervosa
+823	trip_140610	knee rehabilitation
+824	trip_141326	early childhood caries breastfeeding
+825	trip_143018	communities of practice
+826	trip_143362	acupuncture for chronic low back pain
+827	trip_143410	rhabdomyolysis exercise
+828	trip_144564	wisdom teeth extraction
+829	trip_146268	asthma and food allergies
+830	trip_149597	cervical cancer prevent prevention
+831	trip_149747	prescribing antibiotics in childhood ear infections
+832	trip_151445	pressure ulcer management
+833	trip_152764	common cold treatment
+834	trip_152796	Tai chi
+835	trip_155664	mindfulness anxiety
+836	trip_156291	floss caries
+837	trip_159291	treatment resistant schizophrenia
+838	trip_159445	chronic rhinosinusitis
+839	trip_160494	misoprostol induction labour
+840	trip_161245	acupuncture insomnia
+841	trip_164233	buruli ulcer
+842	trip_164596	ondansetron gastroenteritis
+843	trip_164823	bronchitis antibiotics
+844	trip_165571	cannabidiol epilepsy
+845	trip_165777	molar pregnancy
+846	trip_170605	shock hemorrhagic
+847	trip_171530	medical error
+848	trip_171742	vte prevention
+849	trip_173404	suctioning guidelines
+850	trip_174150	fetal growth restriction
+851	trip_174861	stroke diagnosis
+852	trip_176495	electronic cigarettes safety
+853	trip_178578	mistletoe cancer
+854	trip_179079	dementia reminiscence
+855	trip_179878	preoperative smoking cessation
+856	trip_180711	cognitive behavioral therapy schizophrenia
+857	trip_181900	heart failure diagnosis
+858	trip_182987	skin graft
+859	trip_184180	urine culture
+860	trip_186395	patient handoff
+861	trip_187518	binge eating disorder
+862	trip_189208	lung cancer smoking
+863	trip_189751	breast cancer nursing
+864	trip_195066	fall prevention hospital
+865	trip_197543	procalcitonin pneumonia
+866	trip_197677	Abortion Threatened
+867	trip_197803	catheter associated urinary tract infection prevention
+868	trip_203892	Genital herpes
+869	trip_206487	complementary feeding
+870	trip_206804	sudden sensorineural hearing loss
+871	trip_207426	lyme disease diagnosis
+872	trip_208907	fluoride toothpaste
+873	trip_211620	asthma children treatment
+874	trip_212066	anxiety in children
+875	trip_219602	chewing gum ileus
+876	trip_220635	postoperative cognitive dysfunction
+877	trip_224029	endodontic treatment
+878	trip_227600	cardiovascular disease pregnancy
+879	trip_227862	sickle cell hydroxyurea
+880	trip_228289	appendicitis antibiotics surgery complications
+881	trip_229452	non steroidal anti inflammatory drugs
+882	trip_229871	health literacy outcomes
+883	trip_230081	deglutition disorder dysphagia
+884	trip_233385	dementia physical activity
+885	trip_234122	peripheral venous catheter phlebitis
+886	trip_235820	Esophageal cancer
+887	trip_235934	ketamine and depression
+888	trip_240312	uterine artery embolization fertility
+889	trip_241772	yoga back pain randomized controlled trial
+890	trip_241952	osteoarthritis acupuncture
+891	trip_244259	workplace violence nursing
+892	trip_244494	larval debridement
+893	trip_244597	Adult ADHD atomoxetine methylphenidate
+894	trip_245682	silver diamine fluoride
+895	trip_246536	venous ulcer compression
+896	trip_248665	virtual reality rehabilitation
+897	trip_249830	frailty elderly
+898	trip_255264	pulmonary nodules
+899	trip_256345	reminiscence dementia
+900	trip_257619	antipsychotics and dementia
+901	trip_257664	fatigue cancer
+902	trip_260089	borderline personality disorder pharmacotherapy
+903	trip_262000	peripheral neuropathy treatment
+904	trip_266971	chronic kidney disease diet
+905	trip_267041	water immersion labour
+906	trip_267575	benzodiazepines and pregnancy
+907	trip_269143	early mobilization intensive care unit
+908	trip_269276	kinesiology tape
+909	trip_270024	obstructive sleep apnoea obesity CPAP
+910	trip_270670	physical restraint elderly
+911	trip_271335	ADOLESCENT IDIOPATHIC SCOLIOSIS SURGERY
+912	trip_271395	OSA obesity CPAP
+913	trip_272931	primary ciliary dyskinesia
+914	trip_280078	antibiotics acute otitis media children
+915	trip_281561	Caffeine's effects on true and false memory
+916	trip_284991	type 2 diabetes exercise
+917	trip_285536	calcium antagonists acute ischemic stroke
+918	trip_295465	hydrocolloid dressing pressure ulcer
+919	trip_295572	fever paracetamol
+920	trip_297543	adenotonsillar hypertrophy
+921	trip_297658	oral health education
+922	trip_301848	sepsis screening tool
+923	trip_301894	anxiety treatment
+924	trip_306991	jebsen taylor
+925	trip_307022	moringa oleifera
+926	trip_308023	pityriasis alba
+927	trip_309365	Aloe vera
+928	trip_312124	reducing length of stay
+929	trip_319644	dementia demented alzheimer's alzheimers cognitive impairment
+930	trip_327419	trombosis venosa profunda
+931	trip_335252	osteoarthritis knee exercise
+932	trip_336235	chagas children
+933	trip_337069	fibromyalgia and exercise
+934	trip_339569	diabetes type 1 evidence based
+935	trip_340475	music and dementia
+936	trip_340793	electrical stimulation
+937	trip_351045	autoimmune encephalitis
+938	trip_351113	binge eating disorder treatment
+939	trip_351633	cows milk protein allergy
+940	trip_357973	sepsis treatment children
+941	trip_358369	pregnancy iodine supplementation
+942	trip_359838	central venous catheter infection dressing
+943	trip_363637	child zinc diarrhea
+944	trip_364092	nurse staffing patient outcomes
+945	trip_366469	acceptance commitment therapy
+946	trip_371245	alarm fatigue nursing
+947	trip_377782	diabetic foot ulcer honey
+948	trip_377849	bipolarity nursing
+949	trip_378734	stem cell osteoarthritis
+950	trip_384517	obesity diet therapy
+951	trip_386943	parkinson disease home nursing patient care
+952	trip_392400	rotator cuff therapeutic exercises
+953	trip_394642	prescription elderly
+954	trip_395898	rosmarinus officinalis
+955	trip_407216	copd antibiotics exacerbation
+956	trip_407444	children mental psych CAMHS
+957	trip_414530	low dose ct lung cancer screening
+958	trip_415223	antidepressants prevalence
+959	trip_424426	acupuncture anxiety
+960	trip_426084	Children Ibuprofen Paracetamol
+961	trip_426560	hourly rounding falls
+962	trip_426736	schizophrenia relapse
+963	trip_443117	burns burns management
+964	trip_452903	unexplained infertility review
+965	trip_454653	oxygen therapy copd
+966	trip_456342	colic probiotics
+967	trip_457095	employees wellness
+968	trip_461896	c difficile prevention
+969	trip_472551	corneal biomechanics
+970	trip_484646	telehealth nursing
+971	trip_486467	pneumonia corticosteroids
+972	trip_497062	platelet-derived growth factor or pdgf poly L-lactic acid scaffold or PLLA
+973	trip_497401	negative pressure wound therapy not pressure or ulcer
+974	trip_501213	hereditary angioedema drug therapy treatment
+975	trip_509969	central venous catheter heparin saline
+976	trip_510010	children with pierre robin syndrome feeding
+977	trip_511463	Eye-Tracking Gaze
+978	trip_515466	limbal stem cell deficiency
+979	trip_522625	heart failure telemonitoring
+980	trip_523624	popliteal deep vein thrombosis
+981	trip_524498	stroke thrombectomy
+982	trip_531895	ez io ezio ez stabilizer ezstabilizer
+983	trip_532618	botox botuliun neurotoxin dysport cerebral-palsy spasticity hypertonia
+984	trip_541029	Hip Fractures time to surgery elderly
+985	trip_542809	child cancer sibling parent
+986	trip_547869	opioid use disorder
+987	trip_549298	chewing gum postoperative
+988	trip_565398	Cyclic Vulvovaginitis
+989	trip_567180	Inferior Vena Cava Ultrasound for Volume Status
+990	trip_577966	ROM ankle range of motion ankle dorsiflexion prospective Injury injury risk
+991	trip_580014	breast cancer chimiotherapy
+992	trip_585271	smokers hypnosis smoking cessation
+993	trip_586161	sacubitril valsartan
+994	trip_599758	articles legal medicine
+995	trip_600944	law medicine
+996	trip_605576	antibiotic prophylaxis dental total knee
+997	trip_623827	shoulder impingement syndrome sport re-entry
+998	trip_625402	iron supplementation cognitive development
+999	trip_629815	hepatitis screening
+1000	trip_630551	hepatitis A vaccine and travel
+1001	trip_641462	diabetes mellitus type 2 diet
+1002	trip_654108	smoking prevention
+1003	trip_656919	manuka honey venous leg ulcers
+1004	trip_680465	post myocardial infarction ARBs ACE inhibitor reduced mortality
+1005	trip_685314	schizophrenia occupational therapy health behavior
+1006	trip_689252	alzheimer disease music therapy
+1007	trip_691636	Benzodiazepines/adverse effects Cognition Disorders
+1008	trip_693474	alzheimer's disease aggression
+1009	trip_700942	type 2 diabetes and family
+1010	trip_701168	enalapril and hydrochlorothiazide
+1011	trip_705823	water wound cleansing
+1012	trip_710629	Potts Fracture of Ankle
+1013	trip_734575	pregnant moderate exercise no exercise natural childbirth
+1014	trip_740290	pregnant moderate exercise no exercise duration
+1015	trip_748336	sugammadex doses
+1016	trip_749246	occupational ear disease
+1017	trip_780319	silver diamine
+1018	trip_797152	high high cholesterol policosanol
+1019	trip_800192	infection control and explant
+1020	trip_802280	autism intervention or treatment or therapy
+1021	trip_803205	acupuncture fibromyalgia
+1022	trip_808085	Enhanced Recovery After Surgery
+1023	trip_811071	fast preoperative aspiration
+1024	trip_817538	weight loss strategies obese
+1025	trip_845158	diabetes management behaviors
+1026	trip_861202	colorectal cancer screening physician
+1027	trip_873077	multiple sclerosis nintendo wii balance
+1028	trip_883608	dialysis anemia evidence based
+1029	trip_891354	termination resuscitation
+1030	trip_923360	schizophrenia antipsychotics adolescents
+1031	trip_944460	Local Anesthesia
+1032	trip_950028	autism spectrum disorder and child and behavior therapy
+1033	trip_950573	Renal Insufficiency Chronic Chronic Kidney Disease CKD Iron Treatment Anemia
+1034	trip_956731	cardiac patient education patient perspective
+1035	trip_957028	paediatric obesity management
+1036	trip_974939	dementia alzheimers cost costs economic economics pharmacoeconomics
+1037	trip_978579	statins osteoporosis
+1038	trip_979294	Burned hydrocolloid dressing
+1039	trip_991593	outbreak india
+1040	trip_1011982	coffee and mortality
+1041	trip_1016757	pregnant women gestational diabetes nutritional care
+1042	trip_1016913	heart failure functional indicators
+1043	trip_1017708	astragalus membranaceus
+1044	trip_1025844	dancing dance therapy aged elderly
+1045	trip_1040727	preventive health
+1046	trip_1112907	transgender females estrogen stroke
+1047	trip_1127027	learning disability handwriting
+1048	trip_1129525	streptococcus mutans
+1049	trip_1135212	IVIG intravenous immunoglobulin
+1050	trip_1136766	Risk and benefit ratio of using NOACs over warfarin
+1051	trip_1140786	pcos oral contraceptive metformin improving menstrual pattern
+1052	trip_1145978	Adenoid hypertrophy enlargement adenoiditis vegetations pathology paediatric
+1053	trip_1154423	nurse practitioner intervention
+1054	trip_1178167	breastfeeding lactation obesity
+1055	trip_1178549	severe community acquired pneumonia mortality
+1056	trip_1178703	pancreatic neoplasms open distal pancreatectomy laparoscopic distal pancreatectomy
+1057	trip_1194568	sleep disorder and benzodiazepines
+1058	trip_1196299	increase oral contraceptives risk of breast cancer
+1059	trip_1208906	Secondary Prevention Risk Factor Assessment Clinical Guidelines Cardiovascular Disease
+1060	trip_1258833	child constipation polyethylene glycol enema
+1061	trip_1281783	burn injury water therapy
+1062	trip_1291375	parkinson's exercise falls
+1063	trip_1301554	dementia alzheimer alzheimer's disease parkinson's disease vascular dementia
+1064	trip_1313913	tetraplegia nerve transfer
+1065	trip_1330795	Motivational interviewing fatigue management health management health maintenance
+1066	trip_1331963	cancer patient oncology patient physical exercise physical activity
+1067	trip_1349148	Pacifier breastfeeding sudden death
+1068	trip_1351761	acute coronary syndrome pantoprazole prevention of gastrointestinal bleeding
+1069	trip_1352824	biomarkers family caregivers
+1070	trip_1370853	adult drug therapy no treatment heartburn
+1071	trip_1371317	CARE TRANSITIONS CARE NEEDS
+1072	trip_1373757	quantitative research study in USA from 2014
+1073	trip_1373769	pneumonia and associated ventilation
+1074	trip_1382163	PNEUMONIA VENTILATION ASSOCIATED
+1075	trip_1388981	PEDIATRIC OSTOMY
+1076	trip_1389721	ostomy and care nurse and children
+1077	trip_1401528	immunotherapy and radiotherapy cancer
+1078	trip_1405719	obese weight loss diet weight loss
+1079	trip_1413028	joined up mental health mental disorder mental disease mental illness
+1080	trip_1423053	Diabetes t2dm type 2 diabetes miRNA microRNA plasma serum circulating
+1081	trip_1424480	Parkinson's Disease and frailty
+1082	trip_1444328	dementia and mild cognitive impairment
+1083	trip_1449047	kangaroo care kangaroo mother care skin-to-skin nicu
+1084	trip_1462968	primary teeth and root canal instrumentation or reciprocating system and rotatory system
+1085	trip_1474895	chronic pain diet food and nutrition
+1086	trip_1480740	Eusol and wound
+1087	trip_1494134	Uti children antibiotics
+1088	trip_1511814	Care Homes
+1089	trip_1534423	covid 19
+1090	trip_1539887	coronavirus or covid-19
+1091	trip_1550380	antimicrobial stewardship child pharmacist
+1092	trip_1551950	Qatar education
+1093	trip_1562537	loneliness and elderly and interventions
+1094	trip_1564696	community activity community program community intervention social prescription
+1095	trip_1575844	drug addicts drug free program methadone relapses
+1096	trip_1605116	covid-19 or novel coronavirus preparedness wave
+1097	trip_1610957	Stroke rehabilitation activities of daily living hemiparesis functional
+1098	trip_354	area: Emergency Medicine
+1099	trip_2555	neumonia adquirida en la comunidad
+1100	trip_2973	area: Infectious Disease
+1101	trip_3125	area: Physical Medicine
+1102	trip_11012	hipertension arterial
+1103	trip_23171	osteoarthritis glucosamine
+1104	trip_54639	lactancia materna
+1105	trip_67402	dysphagia stroke
+1106	trip_85803	ganoderma ++
+1107	trip_93728	hiv adult enhanc or boost
+1108	trip_142003	coffee mortality
+1109	trip_146304	asthma food allergies
+1110	trip_148293	adherence or compliance and diabetes typ 1
+1111	trip_166871	BIPOLAR DISDER
+1112	trip_317341	neoadjuvant chemotherapy breast conservative surg
+1113	trip_443528	Epidemiology of gÃ¡stric cancer
+1114	trip_515021	personality disorder separation anxiety disinhibited attachment disorder reactive a
+1115	trip_669117	sclerosis exercise or physical therapy or physiotherapy or training or rehabilitati
+1116	trip_671279	adductor canal block total knee arthroplasty adductor canal bl
+1117	trip_675583	istent or glaukos or trabecular microbypass or trabecular micro-bypass or trabecular stent and gla
+1118	trip_799082	transitional care nurs
+1119	trip_804809	skin skin contact after birth
+1120	trip_902219	: Bursitis Shoulder Pain Shoulder Dislocation Hemiplegia Physical Therapy
+1121	trip_997412	Intrauterine adhesion or uterine adhesion or asherman or intrauterine synechiae or uterin
+1122	trip_1028925	area:psychiatry area: Psychiatry
+1123	trip_1058933	Aspirin Primary prevention
+1124	trip_1141952	psychosis psychoses schizo Psychological therapy intervention wei
+1125	trip_1256540	frail elderly long-term care residential facilities home care services caregi
+1126	trip_1258470	Antidepress depress polymorphism genetic genomic pharmacogenomic pharmacoge
+1127	trip_1278117	W system computerized local anesthesia dental anesthesia traditional anesthetic techni
+1128	trip_1332636	frailty or frail and older adults or elderly or older people and physical activity or resistanc
+1129	trip_1468127	bronchiectasis bronchiectatic bronchiec[Title/Abstract] views[Title/Abstr
+1130	trip_1475584	smoking cessation smoking prevention Smoking reduction smoking abstinence qu
+1131	trip_1530429	Glycemic Index[MeSH Terms] Glycemic Index[Title/Abstract] Glycemic Indices[Title/Abst
+1132	trip_1559843	implantable insulin pump/ or insulin allergy/ or short acting insulin/ or monocomponent insulin/ or
+1133	trip_1585386	rheumatoid arthritis juvenile arthritis juvenile idiopathic arthritis air pollut
+1134	trip_1594284	hyaluronan hyaluronic hyaluronate ophthal
+1135	trip_1596149	Diagnosis Mental or psychiatric or stability or conversion or differential area: P
