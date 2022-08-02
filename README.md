@@ -30,7 +30,7 @@ the document as irrelevant.
 We publish the **12,590** TripJudge relevance judgements 
 for [2 class relevance](data/qrels_2class.txt) and the [4 class relevance](data/qrels_4class.txt).
 
-We also publish the **38,810** query-document [raw annotations](data/raw-judgements-fira-22-final.tsv) with annotation times and anonymized user ids
+We also publish the **38,810** query-document [raw annotations](data/raw-judgements-fira-22-final2.tsv) with annotation times and anonymized user ids
 to encourage further research on this test collection.
 
 The judgements where created using:
