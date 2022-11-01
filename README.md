@@ -9,6 +9,26 @@ We ensure a high quality by employing multiple judgements on average for every q
 monitoring of quality parameters during our annotation campaign, such as the time spent per annotation. 
 For relevance judgement we employ majority voting and reach a moderate inter-annotator agreement.
 
+Please cite our work as follows
+```
+@inproceedings{althammer2022tripjudge,
+author = {Althammer, Sophia and Hofst\"{a}tter, Sebastian and Verberne, Suzan and Hanbury, Allan},
+title = {TripJudge: A Relevance Judgement Test Collection for TripClick Health Retrieval},
+year = {2022},
+isbn = {9781450392365},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3511808.3557714},
+doi = {10.1145/3511808.3557714},
+booktitle = {Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management},
+pages = {3801–3805},
+numpages = {5},
+keywords = {relevance judgements, test collections, health retrieval},
+location = {Atlanta, GA, USA},
+series = {CIKM '22}
+}
+```
+
 We compare the TripJudge relevance judgements to the click-based labels from the TripClick 
 DCTR and Raw labels and find a low coverage of the Top4 runs of our pool. Furthermore 
 we find disagreement between our relevance judgements and click-based labels, as visualized in the plot below.
