@@ -23,7 +23,6 @@ doi = {10.1145/3511808.3557714},
 booktitle = {Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management},
 pages = {3801–3805},
 numpages = {5},
-keywords = {relevance judgements, test collections, health retrieval},
 location = {Atlanta, GA, USA},
 series = {CIKM '22}
 }
