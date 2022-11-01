@@ -1,7 +1,7 @@
 # TripJudge: Relevance Judgement Test Collection for TripClick
 
 TripJudge is a novel relevance judgement based test collection for the [Tripclick](https://tripdatabase.github.io/tripclick/)
-health retrieval collection. We extend the click-based test sets by annotating Head test set queries with a pool of 
+health retrieval collection presented at CIKM 2022. We extend the click-based test sets by annotating Head test set queries with a pool of 
 3 runs from [Hofstätter et al.](https://arxiv.org/abs/2201.00365)
 (BM25, dense retrieval with SciBERT_DOT and an neural Ensemble re-ranking) and publish the [qrels](data) from the relevance judgements.
 
